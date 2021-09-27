@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".setshopingname">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Create Strong Username,with number,symbols, It will help peoples to find you easily in our platform"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="18dp"
+        android:textSize="20dp"
+        android:id="@+id/msgsetoname"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Shopping User Name"
+        android:layout_marginTop="56dp"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="25dp"
+        android:id="@+id/textosetoname"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:inputType="textCapCharacters"
+        android:id="@+id/editosetname"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:text="SET"
+        android:id="@+id/bynsetonamee"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="75dp"
+        android:background="@android:color/holo_green_light"/>
+
+
+</LinearLayout>

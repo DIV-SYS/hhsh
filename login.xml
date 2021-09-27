@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@android:color/white"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logino"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/allerta"
+        android:text="Welcome To Smart Shopping"
+        android:textSize="25sp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Login To Continue"
+        android:textColor="@android:color/widget_edittext_dark"
+        android:textSize="25sp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_shop"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="Usename">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
+
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:id="@+id/passward_shop"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/colorPrimary"
+            android:hint="Passward">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright"
+
+        android:text="Forget Passward"
+        android:elevation="5dp"
+        android:textSize="16dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/doggy"
+        android:background="@android:color/holo_purple"
+        android:text="LOGIN"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="SIGNUP"
+        android:layout_marginTop="25dp"
+        android:id="@+id/signuppp"
+        android:textSize="25dp"/>
+
+
+
+</LinearLayout>

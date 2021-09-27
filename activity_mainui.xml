@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mainui">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SMART SHOPPING"
+            android:textColor="@android:color/holo_orange_dark"
+            android:layout_marginTop="30dp"
+            android:textSize="25dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/smarttexto"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/profilopico"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="105dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_menu_camera" />
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/startshopo"
+        android:layout_marginTop="30dp"
+        android:text="START SHOPPING"
+        android:background="@android:color/holo_red_light"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_marginLeft="50dp"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchshopo"
+        android:layout_marginTop="25dp"
+        android:text="SEARCH YOUR SHOP"
+        android:background="@android:color/holo_red_light"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_marginLeft="50dp"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/favoshopolist"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:text="FAVO SHOP LIST"
+        android:background="@android:color/holo_red_light"
+        android:layout_marginLeft="50dp"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/shophistory"
+        android:layout_marginTop="25dp"
+        android:text="SHOPPING HISTORY"
+        android:background="@android:color/holo_red_light"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_marginLeft="50dp"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/chatoshop"
+        android:layout_marginTop="25dp"
+        android:text="CHAT"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:background="@android:color/holo_red_light"
+        android:layout_marginLeft="50dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+
+
+    <
+
+
+</LinearLayout>

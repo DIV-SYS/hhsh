@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".signupotp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We Have Send The Otp For Verification,Kindly Enter to Complete the Registration"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/resttext"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter The OTP"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/textotpconfo"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/signbtnotpp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="BACK"
+            android:textSize="25dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/signupotpback"
+            android:textColor="#ffffff"
+            android:background="@android:color/holo_orange_dark"/>
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="VERIFY"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#ffffff"
+            android:id="@+id/btnsignupverifya"
+            android:background="@android:color/holo_orange_dark"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

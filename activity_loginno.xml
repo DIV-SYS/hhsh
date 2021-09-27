@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context=".loginno">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="45dp"
+        android:text="Reset The Passward"
+        android:textSize="25dp"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:fontFamily="@font/allerta"
+        android:layout_gravity="center"
+        android:id="@+id/reseterbtn"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter New Passward"
+        android:textSize="18dp"
+        android:textColor="@android:color/background_dark"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:id="@+id/newpbtn"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter New Passward Again"
+        android:textSize="18dp"
+        android:textColor="@android:color/background_dark"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:id="@+id/againpbtn"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:text="BACK"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:background="@color/design_default_color_primary"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="25dp"
+            android:text="RESET"
+            android:textColor="#ffffff"
+            android:background="@color/design_default_color_primary"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

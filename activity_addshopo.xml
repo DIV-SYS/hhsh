@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".addshopo">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO SMART SHOPPING"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/design_default_color_primary"
+        android:layout_marginLeft="12dp"
+        android:textSize="25dp"
+        android:fontFamily="@font/allerta"
+        android:id="@+id/textoaddshopo"/>
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="ADD YOUR SHOP"
+        android:layout_marginLeft="50dp"
+        android:textSize="25dp"
+        android:layout_marginTop="58dp"
+        android:textColor="#ffffff"
+        android:background="@android:color/holo_red_dark"
+        android:id="@+id/btnaddshopo"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:text="Connect Your Shop"
+        android:textColor="#ffffff"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/holo_red_dark"
+        android:textSize="25dp"
+        android:id="@+id/btnconectshop"/>
+</LinearLayout>

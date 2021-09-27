@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".otpverone">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:text="Reset Your Passward"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:textSize="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We Will send you OTP to this number to confirm your identity"
+        android:textSize="18dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:id="@+id/otpmsg"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Mobile Numer"
+        android:textSize="25dp"
+        android:fontFamily="@font/allerta"
+        android:textColor="@android:color/primary_text_light"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="phone"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_marginTop="15dp"
+        android:id="@+id/passphoneno"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textSize="25dp"
+            android:layout_marginLeft="36dp"
+            android:textColor="#ffffff"
+            android:background="@android:color/holo_red_light"
+            android:id="@+id/backotpbtn"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Send OTP"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:background="@android:color/holo_red_light"
+            android:id="@+id/sendotpbtn"/>
+
+    </LinearLayout>
+
+</LinearLayout>
